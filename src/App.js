@@ -6,6 +6,8 @@ function App() {
   const apikey = '6e7e45fd86e60c1ed32d3373a9b51508'
   const [weatherdata, setWeatherData] = useState() // Storing json for city
   const [city, setCity] = useState("") // Stroing city inputted
+  const time = new Date().toLocaleTimeString();
+  const date = new Date().toLocaleDateString();
 
   //Weatherfunction when word entered
   const getWeather = (event) => {
@@ -23,7 +25,17 @@ function App() {
       onChange={f=>setCity(f.target.value)}
       value={city}
       onKeyPress={getWeather}/>
+      
+    <div className='timing'>
+      <div className='date'>
+        <p>{date}</p>
+      </div>
 
+      <div className='time'>
+        <p>{time}</p>
+      </div>
+    </div>
+  
     {typeof weatherdata ==='undefined' ? (
       <div>
         <p>Welcome to the weather app!</p>

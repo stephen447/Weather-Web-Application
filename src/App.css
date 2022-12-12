@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(95, 158, 160, 1) ;
+    background-color: rgb(95, 158, 160, 1);
     
 }
 .input{
@@ -15,6 +15,11 @@
 }
 .input:focus{
     outline: none;
+}
+.timing{
+    margin: 30px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 12px;
 }
 .data{
     margin: 30px;
