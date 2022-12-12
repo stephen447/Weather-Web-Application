@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input{
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid lightgrey;
+}
+.input:focus{
+    outline: none;
+}
+.data{
+    margin-top: 30px;
+}
+.city{
+    font-size: 25px;
+    font-weight: 300;
+}
+.temp{
+    font-size: 20px;
+}
+.conditions{
+    font-size: 20px;;
+}
+
