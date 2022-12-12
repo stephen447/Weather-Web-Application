@@ -1,4 +1,4 @@
-simple weather app built with react and Open weather API
+Simple weather app built with react and Open weather API
 
 # Getting Started with Create React App
 
