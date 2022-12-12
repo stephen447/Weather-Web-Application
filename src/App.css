@@ -1,9 +1,14 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
 .container{
     display: flex;
     flex-direction: column;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(95, 158, 160, 1);
+    border-radius: 12px;
     
 }
 .input{
